@@ -10,6 +10,7 @@ io.on('connection', function(socket){
   console.log('a user connected');
   console.log('Hola github amigo!');
   console.log('I see your hola and raise you a wowsa!');
+  console.log('Enn ein breytingin, Sveas yfir og ut!');
   socket.on('disconnect', function(){
   	console.log('a user has disconnected');
   });
